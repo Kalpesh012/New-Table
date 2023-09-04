@@ -1,0 +1,10 @@
+@ManyToOne
+	private Company OwnerCompanyName;
+	
+	public Company getOwnerCompanyName() {
+		return OwnerCompanyName;
+	}
+
+	public void setOwnerCompanyName(Company ownerCompanyName) {
+		this.OwnerCompanyName = ownerCompanyName;
+	}
